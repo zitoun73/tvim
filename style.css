@@ -3,3 +3,14 @@ body{
     height:75%;
     width:100%;
   }/*ajout fond de couleur*/
+
+header {
+  max-width: 100%;
+}
+
+
+.entete
+{
+text-align: center;
+
+}/*centrer mon entete*/
