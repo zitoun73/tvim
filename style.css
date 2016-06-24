@@ -14,3 +14,9 @@ header {
 text-align: center;
 
 }/*centrer mon entete*/
+p{
+  text-align: center
+}/*paragraphe*/
+p{
+font-size: 20px; /* Paragraphes de 20 pixels */
+}
