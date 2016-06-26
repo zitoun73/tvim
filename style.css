@@ -7,16 +7,33 @@ body{
 header {
   max-width: 100%;
 }
-
-
 .entete
 {
 text-align: center;
 
-}/*centrer mon entete*/
+}/*centre mon entete*/
 p{
   text-align: center
 }/*paragraphe*/
 p{
 font-size: 20px; /* Paragraphes de 20 pixels */
 }
+@media screen and (min-width: 720px){
+color: #FF0000;
+border: #000 1px dashed;
+}
+
+@media screen and (min -width: 480px) and (max-width: 720px){
+color:  #333;
+border: #CCC 1px solid;
+}
+
+@media screen and (max-width: 480px){
+color:  #000;
+border:none;
+}
+img{
+	max-width:100%;
+	}
+	img{heigh:auto;
+	}/*ajout responsive*/
